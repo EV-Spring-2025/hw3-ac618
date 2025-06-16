@@ -321,24 +321,32 @@ The limitation of this framework is that it only infers material properties from
 <img src="results/figures/infer.png" width="700"/>
 
 ### Automatic Generation of Material Parameters
-When the classification confidence is too low, or when a new material is encountered, we can switch to a framework that automatically generates the material parameters. Let the material parameters to be learned be denoted as $\mathbf{\theta}$. The MPM simulation can be written as:
+When the classification confidence is too low, or when a new material is encountered, we can switch to a framework that automatically generates the material parameters. Denote the material parameters to be learned as $\mathbf{\theta}$. The MPM simulation can be written as:
+
 ```math
 \mathbf{x}_t = f(\mathbf{x}_{t-1}, \mathbf{\theta}),
 ```
-where $\mathbf{x}_t$ is the state of the simulation at time $t$, such as the position, velocity and deformation. $f$ is the MPM simulator. At first glance, we can render the simulation result $\mathbf{x}_t$ to a image $\mathbf{I}_t$ and calculate the loss between the rendered image and the ground truth frame $\mathbf{I}_t^*$ from the video frames:
+
+where $\mathbf{x}_t$ is the state of the simulation at time $t$, such as the position, velocity and deformation. $f$ is the MPM simulator. At first glance, we can render the simulation result $\mathbf{x}_t$ to a image $\mathbf{I}_t$ and calculate the loss between the rendered image and the ground truth frame $\mathbf{I}_t^*$:
+
 ```math
 \mathcal{L}_I(\mathbf{\theta}) = || \mathbf{I}_t - \mathbf{I}_t^* ||^2.
 ```
+
 Then, we use gradient descent to optimize $\mathbf{\theta}$. However, since $\mathbf{x}_t$ depends on the previous state $\mathbf{x}_{t-1}$, errors can accumulate over time before $\mathbf{\theta}$ is properly optimized, leading to unstable or meaningless gradients.
 
 A possible way to resolve this problem is to first train a dynamic 3D Gaussian model. Since dynamic 3D Gaussians can effectively capture the motion trajectories of points, we can use them to represent the target particle states $\mathbf{x^*}_t$. Then, the simulation can be computed at time $t$ based on the observed dynamic 3D Gaussian at time $t-1$:
+
 ```math
 \mathbf{x}_t = f(\mathbf{x^*}_{t-1}, \mathbf{\theta}).
 ```
+
 Then the loss becomes:
+
 ```math
 \mathcal{L}_\mathbf{x}(\mathbf{\theta}) = || \mathbf{x}_t - \mathbf{x}_t^* ||^2,
 ```
+
 allowing us to optimize $\mathbf{\theta}$ with gradient descent without the problem of error accumulation. This framework is illustrated below.
 
 <img src="results/figures/generate.png" width="700"/>
