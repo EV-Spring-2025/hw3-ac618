@@ -31,8 +31,8 @@ No changes are needed for the ficus model to simulate jelly and plasticine. The 
     <td align="center"><strong>Plasticine</strong></td>
   </tr>
   <tr>
-    <td><img src="results/jelly.gif" alt="Jelly Simulation" width="300"/></td>
-    <td><img src="results/plasticine.gif" alt="Plasticine Simulation" width="300"/></td>
+    <td><img src="results/jelly.gif" alt="Jelly Simulation" width="200"/></td>
+    <td><img src="results/plasticine.gif" alt="Plasticine Simulation" width="200"/></td>
   </tr>
 </table>
 
@@ -49,8 +49,8 @@ To simulate the ficus model as sand or snow, the configurations are modified as 
     <td align="center"><strong>Snow</strong></td>
   </tr>
   <tr>
-    <td><img src="results/sand.gif" alt="Sand Simulation" width="300"/></td>
-    <td><img src="results/snow.gif" alt="Snow Simulation" width="300"/></td>
+    <td><img src="results/sand.gif" alt="Sand Simulation" width="200"/></td>
+    <td><img src="results/snow.gif" alt="Snow Simulation" width="200"/></td>
   </tr>
 </table>
 
@@ -65,8 +65,8 @@ To simulate the ficus model as metal or foam, the configurations are modified as
     <td align="center"><strong>Foam</strong></td>
   </tr>
   <tr>
-    <td><img src="results/metal.gif" alt="Metal Simulation" width="300"/></td>
-    <td><img src="results/foam.gif" alt="Foam Simulation" width="300"/></td>
+    <td><img src="results/metal.gif" alt="Metal Simulation" width="200"/></td>
+    <td><img src="results/foam.gif" alt="Foam Simulation" width="200"/></td>
   </tr>
 </table>
 
@@ -95,9 +95,9 @@ Simulation:
     <td align="center"><strong>n_grid = 50 (default)</strong></td>
   </tr>
   <tr>
-    <td><img src="results/jelly_params/grid5.gif" alt="Jelly n_grid = 5" width="300"/></td>
-    <td><img src="results/jelly_params/grid25.gif" alt="Jelly n_grid = 25" width="300"/></td>
-    <td><img src="results/jelly.gif" alt="Jelly n_grid = 50" width="300"/></td>
+    <td><img src="results/jelly_params/grid5.gif" alt="Jelly n_grid = 5" width="200"/></td>
+    <td><img src="results/jelly_params/grid25.gif" alt="Jelly n_grid = 25" width="200"/></td>
+    <td><img src="results/jelly.gif" alt="Jelly n_grid = 50" width="200"/></td>
   </tr>
 </table>
 
@@ -120,9 +120,9 @@ Simulation:
     <td align="center"><strong>substep_dt = 10e-5 (default)</strong></td>
   </tr>
   <tr>
-    <td><img src="results/jelly_params/substep5.gif" alt="Jelly substep_dt = 5e-5" width="300"/></td>
-    <td><img src="results/jelly_params/substep8.gif" alt="Jelly substep_dt = 8e-5" width="300"/></td>
-    <td><img src="results/jelly.gif" alt="Jelly substep_dt = 10e-5" width="300"/></td>
+    <td><img src="results/jelly_params/substep5.gif" alt="Jelly substep_dt = 5e-5" width="200"/></td>
+    <td><img src="results/jelly_params/substep8.gif" alt="Jelly substep_dt = 8e-5" width="200"/></td>
+    <td><img src="results/jelly.gif" alt="Jelly substep_dt = 10e-5" width="200"/></td>
   </tr>
 </table>
 
@@ -145,9 +145,9 @@ Simulation:
     <td align="center"><strong>grid_v_damping_scale = 1.0</strong></td>
   </tr>
   <tr>
-    <td><img src="results/jelly_params/damp9.gif" alt="Jelly grid_v_damping_scale = 0.9" width="300"/></td>
-    <td><img src="results/jelly.gif" alt="Jelly grid_v_damping_scale = 0.9999" width="300"/></td>
-    <td><img src="results/jelly_params/damp1.gif" alt="Jelly grid_v_damping_scale = 1.5" width="300"/></td>
+    <td><img src="results/jelly_params/damp9.gif" alt="Jelly grid_v_damping_scale = 0.9" width="200"/></td>
+    <td><img src="results/jelly.gif" alt="Jelly grid_v_damping_scale = 0.9999" width="200"/></td>
+    <td><img src="results/jelly_params/damp1.gif" alt="Jelly grid_v_damping_scale = 1.5" width="200"/></td>
   </tr>
 </table>
 
@@ -170,9 +170,9 @@ Simulation:
     <td align="center"><strong>softening = 0.5</strong></td>
   </tr>
   <tr>
-    <td><img src="results/jelly_params/soft01.gif" alt="Jelly softening = 0.01" width="300"/></td>
-    <td><img src="results/jelly.gif" alt="Jelly softening = 0.1" width="300"/></td>
-    <td><img src="results/jelly_params/soft5.gif" alt="Jelly softening = 0.5" width="300"/></td>
+    <td><img src="results/jelly_params/soft01.gif" alt="Jelly softening = 0.01" width="200"/></td>
+    <td><img src="results/jelly.gif" alt="Jelly softening = 0.1" width="200"/></td>
+    <td><img src="results/jelly_params/soft5.gif" alt="Jelly softening = 0.5" width="200"/></td>
   </tr>
 </table>
 
@@ -195,9 +195,9 @@ Simulation:
     <td align="center"><strong>n_grid = 50 (default)</strong></td>
   </tr>
   <tr>
-    <td><img src="results/sand_params/grid5.gif" alt="Sand n_grid = 5" width="300"/></td>
-    <td><img src="results/sand_params/grid25.gif" alt="Sand n_grid = 25" width="300"/></td>
-    <td><img src="results/sand.gif" alt="Sand n_grid = 50" width="300"/></td>
+    <td><img src="results/sand_params/grid5.gif" alt="Sand n_grid = 5" width="200"/></td>
+    <td><img src="results/sand_params/grid25.gif" alt="Sand n_grid = 25" width="200"/></td>
+    <td><img src="results/sand.gif" alt="Sand n_grid = 50" width="200"/></td>
   </tr>
 </table>
 
@@ -220,9 +220,9 @@ Simulation:
     <td align="center"><strong>substep_dt = 10e-5 (default)</strong></td>
   </tr>
   <tr>
-    <td><img src="results/sand_params/substep5.gif" alt="Sand substep_dt = 5e-5" width="300"/></td>
-    <td><img src="results/sand_params/substep8.gif" alt="Sand substep_dt = 8e-5" width="300"/></td>
-    <td><img src="results/sand.gif" alt="Sand substep_dt = 10e-5" width="300"/></td>
+    <td><img src="results/sand_params/substep5.gif" alt="Sand substep_dt = 5e-5" width="200"/></td>
+    <td><img src="results/sand_params/substep8.gif" alt="Sand substep_dt = 8e-5" width="200"/></td>
+    <td><img src="results/sand.gif" alt="Sand substep_dt = 10e-5" width="200"/></td>
   </tr>
 </table>
 
@@ -245,9 +245,9 @@ Simulation:
     <td align="center"><strong>grid_v_damping_scale = 1.0</strong></td>
   </tr>
   <tr>
-    <td><img src="results/sand_params/damp9.gif" alt="Sand grid_v_damping_scale = 0.9" width="300"/></td>
-    <td><img src="results/sand.gif" alt="Sand grid_v_damping_scale = 0.9999" width="300"/></td>
-    <td><img src="results/sand_params/damp1.gif" alt="Sand grid_v_damping_scale = 1.5" width="300"/></td>
+    <td><img src="results/sand_params/damp9.gif" alt="Sand grid_v_damping_scale = 0.9" width="200"/></td>
+    <td><img src="results/sand.gif" alt="Sand grid_v_damping_scale = 0.9999" width="200"/></td>
+    <td><img src="results/sand_params/damp1.gif" alt="Sand grid_v_damping_scale = 1.5" width="200"/></td>
   </tr>
 </table>
 
@@ -269,9 +269,9 @@ Simulation:
     <td align="center"><strong>softening = 0.5</strong></td>
   </tr>
   <tr>
-    <td><img src="results/sand_params/soft01.gif" alt="Sand softening = 0.01" width="300"/></td>
-    <td><img src="results/sand.gif" alt="Sand softening = 0.1" width="300"/></td>
-    <td><img src="results/sand_params/soft5.gif" alt="Sand softening = 0.5" width="300"/></td>
+    <td><img src="results/sand_params/soft01.gif" alt="Sand softening = 0.01" width="200"/></td>
+    <td><img src="results/sand.gif" alt="Sand softening = 0.1" width="200"/></td>
+    <td><img src="results/sand_params/soft5.gif" alt="Sand softening = 0.5" width="200"/></td>
   </tr>
 </table>
 
